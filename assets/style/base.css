@@ -1,0 +1,65 @@
+:root{
+      --primary-color: #fed100 ;
+      --white-color: #fff;
+      --black-color: #000;
+      --height-header : 4rem;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: inherit;
+  }
+  
+html {
+      font-size: 62.5%;
+      line-height: 1.6rem;
+      font-family: 'Roboto', sans-serif;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      user-select: none;
+      -webkit-user-select: none;
+      -webkit-tap-highlight-color: transparent;
+}
+.pt40{
+      padding-top: 40px !important;     
+}
+.ml10{
+      margin-left: 10px !important;
+}
+.opacity0{
+      opacity: 0 !important;
+}
+@keyframes hotAnimation{
+      0%{
+            opacity: 1;
+            transform: scale(1);
+      }
+      100%{
+            opacity: 0;
+            transform: scale(3);
+      }
+}
+
+@keyframes directional {
+      0% {
+          opacity: 0;
+      }
+  
+      100% {
+          opacity: 1;
+      }
+  }
+.clockActive{
+      background-color: var(--white-color) !important;
+      color: #05314a !important;
+}
+.watchActive{
+      display: flex !important;
+}
+.right25{
+      transform: translateX(-25%);
+}
+.mg0{
+      margin: 0;
+}
