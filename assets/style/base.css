@@ -30,6 +30,12 @@ html {
 .opacity0{
       opacity: 0 !important;
 }
+.right25{
+      transform: translateX(-25%);
+}
+.mg0{
+      margin: 0;
+}
 @keyframes hotAnimation{
       0%{
             opacity: 1;
@@ -57,9 +63,10 @@ html {
 .watchActive{
       display: flex !important;
 }
-.right25{
-      transform: translateX(-25%);
+.supportList__hide{
+      display: none;
 }
-.mg0{
-      margin: 0;
+.supportList__show{
+      display: block;
 }
+

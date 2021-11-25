@@ -8,11 +8,11 @@ const tabProductsFour  = document.querySelector(".clock__products--listFour");
 
 tabItems.forEach((tab,index)=>{
      let tabProduct = tabList[index];
-      tab.onclick = function(){
-          document.querySelector('.clock__heading--item.clockActive').classList.remove('clockActive');
-          document.querySelector('.clock__products--list.watchActive ').classList.remove('watchActive');
-          this.classList.add('clockActive');
-          tabProduct.classList.add('watchActive');
+     tab.onclick = function(){
+           document.querySelector('.clock__heading--item.clockActive').classList.remove('clockActive');
+           document.querySelector('.clock__products--list.watchActive ').classList.remove('watchActive');
+           this.classList.add('clockActive');
+           tabProduct.classList.add('watchActive');
       }
 })
 // Đồng hồ thông minh
